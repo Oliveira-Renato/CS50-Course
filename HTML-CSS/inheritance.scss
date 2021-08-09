@@ -1,0 +1,22 @@
+%message {
+    font-family: monospace;
+    font-size: 20px;
+    border: 1px solid #111;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.alert-success {
+    @extend %message;
+    background-color: green;
+}
+.alert-warning {
+    @extend %message;
+    background-color: orange;
+    color: #111
+}
+.alert-danger {
+    @extend %message;
+    background-color: red;
+}

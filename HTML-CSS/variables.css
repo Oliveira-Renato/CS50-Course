@@ -1,0 +1,17 @@
+table {
+  background-color: #fddc7a;
+  border: 1px solid black;
+  width: 500px;
+}
+table th {
+  color: GREEN;
+  font-size: 25px;
+  border: 1px solid black;
+}
+table td {
+  color: #111111;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=variables.css.map */

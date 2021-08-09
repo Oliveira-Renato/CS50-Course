@@ -1,0 +1,22 @@
+$color: GREEN;
+$color2: #111111;
+$table-border:1px solid black;
+
+table {
+    background-color: rgb(253, 220, 122);
+    border: $table-border;
+    width: 500px;
+
+    th {
+        color: $color;
+        font-size: 25px;
+        border: $table-border;
+    }
+    td {
+        color: $color2;
+        font-size: 20px;
+        border: $table-border;
+    }
+    
+}
+

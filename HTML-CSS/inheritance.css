@@ -1,0 +1,23 @@
+.alert-danger, .alert-warning, .alert-success {
+  font-family: monospace;
+  font-size: 20px;
+  border: 1px solid #111;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+}
+
+.alert-success {
+  background-color: green;
+}
+
+.alert-warning {
+  background-color: orange;
+  color: #111;
+}
+
+.alert-danger {
+  background-color: red;
+}
+
+/*# sourceMappingURL=inheritance.css.map */
