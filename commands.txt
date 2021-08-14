@@ -1,0 +1,10 @@
+================SASS=======================
+sass style.scss:style.css <--Compile SCSS to CSS
+sass --watch input.scss output.css <--Compile SCSS to CSS in real time
+sass --watch app/sass:public/stylesheets
+
+================DJANGO=======================
+pip install django
+django-admin startproject PROJECT-NAME <--Creates a django project
+python manage.py startapp APP-NAME <--Creates a django app
+python manage.py runserver <--Runs the application
