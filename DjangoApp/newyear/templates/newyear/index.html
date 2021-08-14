@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,20 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is it New Year's?</title>
-    <style>
-        .h1-style
-        {
-            font-size: 200px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="{% static 'newyear/styles.css' %}">
 </head>
     <body>
 
         {% if newyear %}<!--Django notation to logic statements-->
-            <h1 class="h1-style">YES</h1>
+            <h1>YES</h1>
         {% else %}
-            <h1 class="h1-style">NO</h1>
+            <h1>NO</h1>
         {% endif %}<!--in django the if need to be closed-->
         
     </body>
