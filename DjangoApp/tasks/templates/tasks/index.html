@@ -5,6 +5,8 @@
     <ul>
         {% for task in tasks %}
             <li>{{ task }}</li> <!-- {{ VAR }} django notation for variables in a HTML document-->
+        {% empty %}
+            <li>No tasks.</li>
         {% endfor %}
     </ul>
 
