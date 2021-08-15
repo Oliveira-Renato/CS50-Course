@@ -8,3 +8,4 @@ pip install django
 django-admin startproject PROJECT-NAME <--Creates a django project
 python manage.py startapp APP-NAME <--Creates a django app
 python manage.py runserver <--Runs the application
+python manage.py migrate <--Create all default tables inside django database and store the data
